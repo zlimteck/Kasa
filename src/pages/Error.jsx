@@ -1,8 +1,8 @@
+import Error404 from "../components/Error/Error404";
+
 function Error() {
     return (
-        <div>
-            <h1>404</h1>
-        </div>
+        <Error404 />
     );
 }
 
