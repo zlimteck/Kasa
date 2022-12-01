@@ -13,7 +13,8 @@
 .navbar_list{
     display: flex;
     list-style: none;
-    font-size: 24px;  
+    font-size: 24px;
+    font-weight: 500;  
 }
 
 .navbar_link {
@@ -52,7 +53,7 @@
     }
 
     .logo_header {
-        width: 168px;
+        width: 145px;
         height: 47px;
     }
 
@@ -81,11 +82,13 @@
     .navbar_link {
         margin-left: 10px;
         font-size: 12px;
+        font-weight: 500;
     }
 
     .navbar_link_active {
         margin-left: 10px;
         font-size: 12px;
+        font-weight: 500;
         text-decoration: underline 1px;
     }
 
