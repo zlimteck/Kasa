@@ -73,7 +73,11 @@
 }
 
 /* MediaQueries Mobile*/
-@media (max-width: 490px) {
+@media (max-width: 500px) {
+    .header {
+        margin: 30px 20px;
+    }
+
     .logo_header {
         width: 145px;
         height: 47px;
