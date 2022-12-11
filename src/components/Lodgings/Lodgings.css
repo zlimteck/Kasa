@@ -1,0 +1,187 @@
+.infos {
+    display: flex;
+    width: 100%;
+    margin: 30px 70px;
+}
+
+.lodging_infos {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 70%;
+    border: 1px solid red;  
+}
+
+.lodging_title {
+    width: 635px;
+    color: #FF6060;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    margin: 0;
+}
+
+.lodging_location {
+    margin: 0 0 25px 0;
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.lodging_tags {
+    display: flex;
+}
+
+.lodging_tag_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px 0 0;
+    padding: 0 5px;
+    width: 115px;
+    height: 25px;
+    line-height: 90%;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #FF6060;
+    color: #FFFFFF;
+}
+
+.host_infos {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px solid red;
+}
+
+.host {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.host_name {
+    margin-right: 10px;
+    width: min-content;
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.host_img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%; 
+    background-color: #C4C4C4;
+}
+
+.rating_host {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rating_stars {
+    margin: 10px 0 0 10px;
+}
+
+.full {
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.empty {
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+/* MediaQueries Tablet */
+
+@media (max-width: 768px) {
+
+    .infos {
+        margin: 30px 20px;
+    }
+
+    .lodging_title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .lodging_tag_name {
+        width: 23%;
+        height: 25px;
+        line-height: 80%;
+        font-size: 12px;
+    }
+}
+/* MediaQueries Mobile */
+
+@media (max-width: 500px) {
+
+    .infos {
+        flex-direction: column;
+        margin: 0px 20px 0px 20px;
+        width: 90%;
+    }
+
+    .lodging_infos {
+        width: 100%;
+    }
+
+    .lodging_title {
+        font-size: 18px;
+        line-height: 25px;
+        width: 335px;
+    }
+
+    .lodging_location {
+        margin: 10px 0;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .lodging_tags {
+        display: flex;
+        width: 300px;
+    }
+
+    .lodging_tag_name {
+        margin-bottom: 20px;
+        width: 30%;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .host_infos {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .rating_host {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .host_name {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .host_img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .rating_stars {
+        width: 15px;
+        height: 15px;
+    }
+}
