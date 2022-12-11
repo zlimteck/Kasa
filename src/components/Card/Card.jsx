@@ -4,7 +4,7 @@ import './Card.css';
 import Lodgings from '../../data/lodging.json';
 
 function Card(){
-    const [ lodgings ] = useState(Lodgings); // State for the lodgings
+    const [ lodgings ] = useState(Lodgings);
     return (
         <div className="gallery">
             {lodgings.map((lodging) => (
