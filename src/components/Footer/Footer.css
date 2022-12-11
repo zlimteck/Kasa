@@ -35,10 +35,9 @@
 /* MediaQueries Tablet*/
 
 /* MediaQueries Mobile*/
-@media (max-width: 500px) {
+@media screen and (max-width: 480px) {
     .footer {
         height: 209px;
-        margin: 0;
     }
 
     .footer_logo {
@@ -51,7 +50,7 @@
         font-size: 12px;
         font-weight: 500;
         color: #FFFFFF;
-        width: 513px;
+        width: 300px;
         height: 46px;
         display: flex;
         align-items: center;
