@@ -1,0 +1,13 @@
+.collapse_container {
+    width: 100%;
+    border: 1px solid green;
+}
+
+.collapse_content {
+    display: flex;
+    justify-content: space-around;
+    width: 582px;
+    border: 1px solid green;
+    background-color: #FF6060;
+}
+
