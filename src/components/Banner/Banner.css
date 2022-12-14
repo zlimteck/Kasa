@@ -4,7 +4,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 25px;
-    margin: 30px 70px ;
+    margin: 40px 0px 40px 0px;
 }
 
 .banner_img {
@@ -38,7 +38,6 @@
 /* MediaQueries Tablet */
 @media screen and (max-width: 980px) {
     .banner {
-        margin: 30px 20px;
         height: 160px;
     }
     .banner_text_container {
