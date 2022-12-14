@@ -1,0 +1,21 @@
+.lodging_container {
+    margin: 30px 70px;
+}
+
+.logding_collapse {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 980px) {
+    .lodging_container {
+        margin: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lodging_container {
+        margin: 30px 0px;
+    }
+}

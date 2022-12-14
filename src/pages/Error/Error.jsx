@@ -1,4 +1,4 @@
-import Error404 from "../components/Error/Error404";
+import Error404 from "../../components/Error/Error404";
 
 function Error() {
     return (

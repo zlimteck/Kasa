@@ -1,0 +1,15 @@
+.home {
+    margin: 30px 70px;
+}
+
+@media screen and (max-width: 980px) {
+    .home {
+        margin: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home {
+        margin: 30px 0px;
+    }
+}
