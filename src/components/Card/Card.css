@@ -5,9 +5,7 @@
     background-color: #F6F6F6;
     border-radius: 25px;
     max-width: 100%;
-    margin: 30px 70px;
-    padding: 32px;
-    
+    padding: 32px;   
 }
 
 .card_container {
@@ -24,6 +22,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .card_title {
@@ -79,5 +78,6 @@
     .card_title {
         width: 260px;
         font-size: 18px;
+        padding: 0px 19px 15px 19px;
     }
 }
