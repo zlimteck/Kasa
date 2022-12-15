@@ -89,6 +89,10 @@
         font-weight: 500;
     }
 
+    .navbar_list {
+        padding: 0px;
+    }
+
     .navbar_link_active {
         margin-left: 10px;
         font-size: 12px;
