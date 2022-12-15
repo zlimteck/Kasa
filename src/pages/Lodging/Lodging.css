@@ -8,6 +8,10 @@
     margin-top: 26px;
 }
 
+.list_equipments {
+    list-style: none;
+}
+
 @media screen and (max-width: 980px) {
     .lodging_container {
         margin: 30px 20px;
