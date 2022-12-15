@@ -17,7 +17,7 @@ function Collapse({title, texte}) {
         <div className="collapse_container">
             <div className="collapse_content">
                 <p className="collapse_title">{title}</p>
-                <img className="collapse_arrow" src={Collapse_arrow} alt="Fleche de collapse" onClick={() => setEtat(true)}/>
+                <img className="collapse_arrow_rot" src={Collapse_arrow} alt="Fleche de collapse" onClick={() => setEtat(true)}/>
             </div>
         </div>
     );
