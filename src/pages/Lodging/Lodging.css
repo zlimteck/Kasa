@@ -6,10 +6,22 @@
     display: flex;
     justify-content: space-between;
     margin-top: 26px;
+    max-width: 100%;
 }
 
 .list_equipments {
     list-style: none;
+}
+
+.collapse_description {
+    display: flex;
+    width: 50%;
+}
+
+.collapse_equipments {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
 }
 
 @media screen and (max-width: 980px) {
@@ -21,5 +33,19 @@
 @media screen and (max-width: 480px) {
     .lodging_container {
         margin: 30px 0px;
+    }
+
+    .logding_collapse {
+        flex-direction: column;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .collapse_description {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .collapse_equipments {
+        width: 100%;
     }
 }
