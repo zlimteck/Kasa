@@ -1,7 +1,10 @@
+import AboutBanner from "../../components/AboutBanner/AboutBanner";
+import "./About.css";
+
 function About() {
     return (
-        <div>
-            <h1>About</h1>
+        <div className="about">
+            <AboutBanner />
         </div>
     );
 }
