@@ -1,5 +1,5 @@
 .collapse_container {
-    width: 582px;
+    width: 90%;
 }
 
 .collapse_content {
@@ -12,9 +12,11 @@
 }
 
 .collapse_title {
+    display: flex;
     font-size: 18px;
     font-weight: 500;
     color: #FFFFFF;
+    align-items: center;
 }
 
 .collapse_arrow {
@@ -29,6 +31,7 @@
     max-height: 200px;
     background-color: #F6F6F6;
     padding: 40px 12px 53px 20px;
+    border-radius: 10px;
 }
 
 .collapse_arrow_rot {
@@ -38,6 +41,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .collapse_container {
+        width: 100%;
+    }
+
     .collapse_content {
         border-radius: 5px;
         height: 30px;
