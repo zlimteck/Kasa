@@ -12,7 +12,7 @@
     display: flex;
     width: 340px;
     height: 340px;
-    margin: 30px 40px;
+    margin: 30px 30px;
     border-radius: 10px;
     position: relative;
 }
@@ -35,23 +35,34 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 1440px) {
+    .gallery {
+        padding: 10px;   
+    }
+
+    .card_container {
+        margin: 20px 20px;
+    }
+
+}
+
 /* MediaQueries Tablet */
 @media screen and (max-width: 980px) {
     .gallery {
         max-width: 100%;
         display: block;
+        padding-top: 30px;
     }
 
     .card_container {
-        width: 90%;
+        width: 95%;
         height: 255px;
         margin: auto;
         margin-bottom: 30px;
     }
 
     .card_title {
-        width: 200px;
-        font-size: 14px;
+        padding: 0px 0px 15px 10px;
     }
 }
 
