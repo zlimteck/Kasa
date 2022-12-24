@@ -13,5 +13,8 @@
 }
 
 @media screen and (max-width: 480px) {
+    .aboutbanner_img {
+        border-radius: 10px;
+    }
 
 }
