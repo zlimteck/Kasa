@@ -28,16 +28,31 @@
     .lodging_container {
         margin: 30px 20px;
     }
+
+    .logding_collapse {
+        flex-direction: column;
+        justify-content: none;
+        margin: 0px;
+    }
+
+    .collapse_description {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .collapse_equipments {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .lodging_container {
-        margin: 30px 0px;
+        margin: 20px 20px;
     }
 
     .logding_collapse {
         flex-direction: column;
-        margin: 0px 20px 0px 20px;
+        margin: 0px;
     }
 
     .collapse_description {

@@ -9,9 +9,8 @@ import './Lodging.css';
 function Lodging() {
     const params = useParams(); 
     const product = 
-    LodgingInfos.find((product) => params.id === product.id); // Trouver le logement correspondant à l'id// Trouver le logement correspondant à l'id
+    LodgingInfos.find((product) => params.id === product.id); //Trouve le logement correspondant à l'id
     if (product===undefined) {
-        console.log("Wrong ID");
         return <Error404 />;
     }
 
@@ -26,7 +25,7 @@ function Lodging() {
     const equipments = product.equipments;
 
     return (
-        <div className="lodging_container">
+        <section className="lodging_container">
             <div className="lodging_images">
                 <Carrousel
                 key={key}
@@ -60,7 +59,7 @@ function Lodging() {
                     />
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
   

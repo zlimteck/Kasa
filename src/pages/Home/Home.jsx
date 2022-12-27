@@ -4,10 +4,10 @@ import './Home.css';
 
 function Home() {
     return (
-        <div className="home">
+        <section className="home">
             <Banner />
             <Card />
-        </div>
+        </section>
     );
 }
 

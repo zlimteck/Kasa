@@ -6,19 +6,22 @@ import Error from "./pages/Error/Error";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import React from "react";
 
 function App() {
     return (
-        <div className="App">
-            <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/lodging/:id" element={<Lodging />} />
-                <Route path="/about" element={<About />} />
-                <Route path="*" element={<Error />} />
-            </Routes>
+        <React.StrictMode>
+            <div className="App">
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/lodging/:id" element={<Lodging />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="*" element={<Error />} />
+                </Routes>
+            </div>
             <Footer />
-        </div>  
+        </React.StrictMode>
     );
 }
 

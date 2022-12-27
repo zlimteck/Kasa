@@ -5,7 +5,7 @@ import Collapse from "../../components/Collapse/Collapse";
 
 function About() {
     return (
-        <div className="about">
+        <section className="about">
             <AboutBanner />
             <div className="about_collapse">
                 {AboutInfo.map((info, index) => (
@@ -17,7 +17,7 @@ function About() {
                 </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 }
 

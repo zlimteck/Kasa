@@ -54,7 +54,7 @@
 /* MediaQueries Mobile */
 @media screen and (max-width: 480px) {
     .banner {
-        margin: 30px 20px;
+        margin: 0px 20px 22px 20px;
         height: 111px;
         border-radius: 10px;
     }
@@ -64,6 +64,7 @@
     }
 
     .banner_text_container {
+        width: 100%;
         font-size: 24px;
         line-height: 100%;
         justify-content: flex-start;

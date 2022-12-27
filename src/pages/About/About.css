@@ -5,7 +5,7 @@
 .about_collapse {
     display: flex;
     flex-direction: column;
-    margin: 33px;
+    margin-top: 33px;
 }
 
 .about_collapse > div {
@@ -13,6 +13,20 @@
     width: 100%;
     margin-bottom: 33px;
     justify-content: center;
+}
+
+@media screen and (max-width: 980px) {
+    .about {
+        margin: 30px 20px;
+    }
+
+    .about_collapse {
+        margin: 19px 0px 19px 0px;
+    }
+
+    .about_collapse > div {
+        margin-bottom: 19px;
+    }
 }
 
 @media screen and (max-width: 480px) {

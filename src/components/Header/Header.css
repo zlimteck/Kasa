@@ -75,7 +75,7 @@
 /* MediaQueries Mobile*/
 @media screen and (max-width: 480px) {
     .header {
-        margin: 30px 20px;
+        margin: 20px 20px;
     }
 
     .logo_header {
@@ -91,6 +91,7 @@
 
     .navbar_list {
         padding: 0px;
+        font-size: 12px;
     }
 
     .navbar_link_active {
